@@ -40,8 +40,8 @@ open class DKAssetGroupDetailVC: UIViewController, UICollectionViewDelegate, UIC
         return button
     }()
 		
-    internal var collectionView: UICollectionView!
-    internal weak var imagePickerController: DKImagePickerController!
+    public var collectionView: UICollectionView!
+    public weak var imagePickerController: DKImagePickerController!
     public var selectedGroupId: String?
 	private var groupListVC: DKAssetGroupListVC!
     private var hidesCamera: Bool = false

@@ -341,7 +341,7 @@ open class DKImagePickerController : UINavigationController {
         return self.assetFetchOptions
     }
     
-    private func updateCancelButtonForVC(_ vc: UIViewController) {
+    public func updateCancelButtonForVC(_ vc: UIViewController) {
         if self.showsCancelButton {
             self.UIDelegate.imagePickerController(self, showsCancelButtonForVC: vc)
         } else {
